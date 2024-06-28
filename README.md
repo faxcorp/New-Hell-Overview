@@ -1,5 +1,14 @@
 # NewHellDocumentation
-New Hell Documentation - UE5 Kitbash Toolset 
+New Hell - Documentation - UE5 Environment & Kitbash Toolset 
+
+New Hell is an Unreal Engine 5 Project set in a near future in post-apocalyptic diesel-punk wasteland (satanic), that utilizes many modular pieces and Blueprint tools to construct all assets using splines and instancing. 
+The pack was made with kitbashing in mind so all modular pieces uses Nanite and can be scaled up by orders of magnitude. Dynamic materials will scale the textures on the materials accordingly.
+Materials are procedural and are using curvature/ambient occlusion/cavity information from vertex colors of the meshes to add details like rust/erosion/cracks. So all materials can be assigned to any of the meshes.
+
+Important Notes: 
+The Cliffs PCG graph is heavy and should be disabled when working on the map to avoid frustration. It gets info from buildings and roads and was made with intention to be a post-process generation that doesn't interfere with the layout of the environment.
+
+StaticMesh assets has curvature, ambient occlusion and cavity information baked into their vertex colors. This allows for erosion, color effects without creating separate textures for this many modular pieces. It works in favor when changing assets material, for example, from brick material to metal material, the details like rust or cracks will be drawn procedurally using information in the vertex colors of the StaticMesh.
 
 BP_Building
 ![image](https://github.com/faxcorp/NewHellDocumentation/assets/37246339/de654ddf-c489-4e72-9c10-bd8713115fd1)
