@@ -1,5 +1,6 @@
 # NewHell 
 New Hell - UE5 Environment built using Kitbash assets and Blueprint Toolset 
+This is an overview of how I approached building an environment from modular pieces using Blueprint tools to place them
 
 New Hell is an Unreal Engine 5 Project set in a near future in post-apocalyptic diesel-punk wasteland (satanic), that utilizes many modular pieces and Blueprint tools to construct all assets using splines and instancing. 
 The pack was made with kitbashing in mind so all modular pieces uses Nanite and can be scaled up by orders of magnitude. Dynamic materials will scale the textures on the materials accordingly.
